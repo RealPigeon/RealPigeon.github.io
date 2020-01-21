@@ -10,7 +10,6 @@ html {
     text-align: center;
     align-content: center;
     border-radius:10px;
-    padding-bottom: 70% ;
     }
 
     
@@ -34,3 +33,43 @@ html {
         background: #fb6e14;
         color:#fff;
     }
+
+    @media only screen and (max-width: 1000px) {
+            
+            .log_in-bar a {
+                display: inline-block;
+            margin-top:10px;
+            padding: 55px 10px;
+            border-radius: 20px;
+            width:1400px;
+            outline: none;
+            border: 5px solid #b14b0c;
+            line-height: 100%;
+        
+            color:#fff;
+            font-weight: bold;
+            font-size: 300px;
+            background: #00000000;
+            text-decoration: none;
+            }
+        }
+        
+        
+        @media screen and (max-width: 1000x) {
+            .log_in-bar a {
+                display: inline-block;
+            margin-top:10px;
+            padding: 55px 10px;
+            border-radius: 20px;
+            width:1400px;
+            outline: none;
+            border: 5px solid #b14b0c;
+            line-height: 100%;
+        
+            color:#fff;
+            font-weight: bold;
+            font-size: 300px;
+            background: #00000000;
+            text-decoration: none;
+            }
+        }
