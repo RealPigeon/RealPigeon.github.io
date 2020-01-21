@@ -979,6 +979,7 @@ p {
 #fh5co-events .fh5co-event p {
   font-size: 16px;
   line-height: 1.8;
+  height: 70px;
 }
 #fh5co-events .fh5co-event p:last-child {
   margin-bottom: 0;
