@@ -5,9 +5,9 @@ html {
     
 
     .log_in-bar {
-    margin: auto;
+    margin:0 auto;
     margin-top:10%;
-    text-align:center;
+    text-align: center;
     align-content: center;
     border-radius:10px;
     padding-bottom: 70% ;
@@ -15,21 +15,18 @@ html {
 
     
     .log_in-bar a {
-    display: block;
+        display: inline-block;
     margin-top:10px;
-    width: 24%;
-    margin-left:38%;
-    height: 40px;
-    padding: 0 10px;
+    padding: 40px 10px;
     border-radius: 20px;
-   
+    width:700px;
     outline: none;
     border: 3px solid #b14b0c;
-    line-height: 40px;
+    line-height: 100%;
 
     color:#fff;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 100px;
     background: #00000000;
     text-decoration: none;
     }
