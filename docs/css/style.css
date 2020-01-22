@@ -1116,7 +1116,7 @@ p {
   z-index: 1;
   top: 0;
   width: 275px;
-  background: rgba(0, 0, 0, 0.9);
+  background: #00283f;
   padding: 0.75em 1.25em;
   -moz-transform: translateX(-275px);
   -webkit-transform: translateX(-275px);
@@ -1268,7 +1268,7 @@ p {
   margin: 0 auto;
   display: none;
   border-bottom: none !important;
-  background: rgba(0, 0, 0, 0.7);
+  background: #025886de;
   padding: 0px 10px 10px 10px;
   cursor: pointer;
   -webkit-border-radius: 4px;
