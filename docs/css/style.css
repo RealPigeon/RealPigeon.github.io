@@ -219,9 +219,24 @@ p {
   transition: 0.3s;
 }
 @media screen and (max-width: 992px) {
-  #fh5co-home .flexslider .fh5co-text h1 {
-    font-size: 70px;
+
+  #fh5co-home .flexslider .fh5co-text h1 div img{
+    height: 190px;
+    width: 190px;
   }
+  
+  #fh5co-home .flexslider .fh5co-text h1 div {
+    display: inline-block;
+    height: 210px;
+    width: 220px;
+    border-radius:105px ;
+  }
+  
+  #fh5co-home .flexslider .fh5co-text h1 {
+    height: 210px;
+    width: 220px;
+  }
+  
 }
 #fh5co-home .flexslider .fh5co-text h2 {
   margin: 0;
@@ -236,6 +251,23 @@ p {
   transition: 0.3s;
 }
 @media screen and (max-width: 768px) {
+  #fh5co-home .flexslider .fh5co-text h1 div img{
+    height: 130px;
+    width: 130px;
+  }
+  
+  #fh5co-home .flexslider .fh5co-text h1 div {
+    display: inline-block;
+    height: 150px;
+    width: 160px;
+    border-radius:75px ;
+  }
+  
+  #fh5co-home .flexslider .fh5co-text h1 {
+    height: 150px;
+    width: 160px;
+  }
+
   #fh5co-home .flexslider .fh5co-text h2 {
     font-size: 20px;
   }
@@ -1361,6 +1393,33 @@ p {
 
 .row-padded {
   padding-bottom: 40px;
+}
+
+.row img{
+  height: 250px;
+  width: 250px;
+}
+
+.row > h1 > div {
+  display: inline-block;
+  height: 270px;
+  width: 280px;
+  padding: 10px;
+  border-radius:135px ;
+  background: #fff;
+}
+
+.row > h1 {
+  display: inline-block;
+  height: 270px;
+  width: 280px;
+  margin-bottom: 5px;
+}
+
+.row {
+  text-align: center;
+  align-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
