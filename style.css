@@ -20,7 +20,7 @@ html {
     border-radius: 20px;
     width:700px;
     outline: none;
-    border: 3px solid #b14b0c;
+    border: 3px solid  #f30d00 ;
     line-height: 100%;
 
     color:#fff;
@@ -30,7 +30,7 @@ html {
     text-decoration: none;
     }
     .log_in-bar a:hover, .log_in-bar a:focus {
-        background: #fb6e14;
+        background: #b60700;
         color:#fff;
     }
 
